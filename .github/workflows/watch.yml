@@ -1,0 +1,46 @@
+name: career-watch
+
+on:
+  schedule:
+    # Minden nap 08:00 UTC = 10:00 svájci nyári idő (télen 09:00).
+    - cron: "0 8 * * *"
+  workflow_dispatch:        # kézi indítás a GitHub felületéről
+    inputs:
+      seed:
+        description: "seed = minden jelenlegi pozíciót látottnak jelöl, e-mail nélkül (csak kézi indításnál)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write           # kell, hogy vissza tudja írni a state.json-t
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Karrieroldalak ellenőrzése
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO:   ${{ secrets.MAIL_TO }}
+        run: |
+          if [ "${{ inputs.seed }}" = "true" ]; then python watch.py --seed; else python watch.py; fi
+
+      - name: State visszaírása (hogy ne jöjjön kétszer ugyanaz a pozíció)
+        run: |
+          git config user.name  "career-watch"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "state: $(date -u +%Y-%m-%dT%H:%M)"
+          git push
