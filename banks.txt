@@ -1,0 +1,78 @@
+# Cégazonosító-tippek a Workday-kereséshez.
+# Futtatás:  python probe.py --workday-batch banks.txt
+#
+# A szkript mindegyiket lepróbálja, és csak a MŰKÖDŐ találatokat írja ki,
+# kész formában, amit a companies.yml-be bemásolhatsz.
+# Nyugodtan bővítsd vagy húzz ki belőle sorokat.
+
+# --- svájci privátbankok / vagyonkezelők ---
+vontobel
+pictet
+lombardodier
+ubp
+mirabaud
+efginternational
+efg
+jsafrasarasin
+safrasarasin
+bergos
+vpbank
+lgt
+reichmuth
+banquesyz
+rahnbodmer
+
+# --- svájci univerzális bankok / állami bankok ---
+zkb
+zuercherkantonalbank
+raiffeisen
+postfinance
+migrosbank
+bcv
+lukb
+bekb
+
+# --- svájci asset management / pénzügyi szolgáltatók ---
+partnersgroup
+gam
+bellevue
+swissquote
+sixgroup
+six
+avaloq
+leonteq
+julius
+
+# --- biztosítók (nagy befektetési oldallal) ---
+swissre
+zurich
+zurichinsurance
+baloise
+swisslife
+helvetia
+axa
+
+# --- nemzetközi bankok svájci jelenléttel ---
+jpmorgan
+jpmchase
+goldmansachs
+morganstanley
+bankofamerica
+deutschebank
+bnpparibas
+hsbc
+barclays
+rothschildandco
+lazard
+blackrock
+statestreet
+bnymellon
+northerntrust
+
+# --- tanácsadók / Big Four (pénzügyi tanácsadás) ---
+pwc
+ey
+kpmg
+deloitte
+mckinsey
+bcg

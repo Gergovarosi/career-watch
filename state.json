@@ -1,0 +1,838 @@
+{
+  "seen": {
+    "aa5c7f268c8edf8f": {
+      "company": "Citi Switzerland",
+      "title": "Banking, Corporate Banking, Full Time Analyst, Zurich - Switzerland, 2027 (applicable for 2026 Citi Summer Interns Only)",
+      "url": "https://jobs.citi.com/job/zurich/banking-corporate-banking-full-time-analyst-zurich-switzerland-2027-applicable-for-2026-citi-summer/287/100141204336",
+      "first_seen": "2026-09-04T13:09:30+00:00"
+    },
+    "a429447744169676": {
+      "company": "Citi Switzerland",
+      "title": "Investment Banking Associate",
+      "url": "https://jobs.citi.com/job/zurich/investment-banking-associate/287/96161794576",
+      "first_seen": "2026-09-04T13:09:30+00:00"
+    },
+    "c7feae07467d2d94": {
+      "company": "Vontobel",
+      "title": "Working Student - Client Portfolio Manager Team (60%-100%)",
+      "url": "https://www.vontobel.com/en/about-vontobel/careers/open-positions/9318-working-student-client-portfolio-manager-team-60-100/",
+      "first_seen": "2026-09-04T13:09:31+00:00"
+    },
+    "b1e5cc1c7dbaf4a1": {
+      "company": "Vontobel",
+      "title": "Specialist Client Services and Front Support",
+      "url": "https://www.vontobel.com/en/about-vontobel/careers/open-positions/8863-specialist-client-services-and-front-support/",
+      "first_seen": "2026-09-04T13:09:31+00:00"
+    },
+    "518a89fd720918b2": {
+      "company": "Vontobel",
+      "title": "Relationship Manager - Romandie",
+      "url": "https://www.vontobel.com/en/about-vontobel/careers/open-positions/9126-relationship-manager-romandie/",
+      "first_seen": "2026-09-04T13:09:31+00:00"
+    },
+    "98525b7557b2912d": {
+      "company": "Julius Bär",
+      "title": "Relationship Manager for SEA / Australia Market",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Relationship-Manager-for-SEA---Australia-Market_r-19671",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "820f62bf1555e400": {
+      "company": "Julius Bär",
+      "title": "Financial Analyst, Performance- & Initiative Manager  80 - 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Strategic-Financial-Controller-100---f-m-d-_r-18428-1",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "ac3b19b2818e500f": {
+      "company": "Julius Bär",
+      "title": "Asset & Liability Manager - Finance Treasury and Credit 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Asset---Liability-Manager---Finance-Treasury-and-Credit-100---f-m-d-_r-19491-1",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "cebd2d459c814689": {
+      "company": "Julius Bär",
+      "title": "Assistant Relationship Manager, Geneva, 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Genf/Assistant-Relationship-Manager--Geneva--100---f-m-d-_r-19467-1",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "d588f8f099c81064": {
+      "company": "Julius Bär",
+      "title": "Assistant Relationship Manager Intermediaries 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Lugano/Assistant-Relationship-Manager-Intermediaries-100---f-m-d-_r-19276-2",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "49a8dd68671a3bab": {
+      "company": "Julius Bär",
+      "title": "Model Risk Quantitative Analyst 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Model-Risk-Quantitative-Analyst-100---f-m-d-_r-19461-1",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "f129c53b367fdbdd": {
+      "company": "Julius Bär",
+      "title": "GPS Wealth Planning Business Risk Manager Zurich, 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/GPS-Wealth-Planning-Business-Risk-Manager-Zurich--100---f-m-d-_r-19302-2",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "72c2f18fb40d79d8": {
+      "company": "Julius Bär",
+      "title": "Assistant Relationship Manager Intermediaries 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Assistant-Relationship-Manager-Intermediaries-100---f-m-d-_r-19366-2",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "9139aa9d937912ee": {
+      "company": "Julius Bär",
+      "title": "Private Banking Compliance Officer Region Americas & Iberia 80% - 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Private-Banking-Compliance-Officer-Region-Americas---Iberia-80----100---f-m-d-_r-18693-2",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "26121cdb0f6d787e": {
+      "company": "Julius Bär",
+      "title": "Junior Market Risk Controller 100 % (f/m/d) - Temporary until 31.03.2027",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Market-Risk-Controller-100----f-m-d-_r-18203-2",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "1e780209f89d99cc": {
+      "company": "Julius Bär",
+      "title": "Legal Investment Solutions & Distribution 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Legal-Investment-Solutions---Distribution-100---f-m-d-_r-19318-1",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "0afcc75c616ed23d": {
+      "company": "Julius Bär",
+      "title": "Wealth Planner Key Clients & Family Office Services, Zürich, 100% (f/m/d)",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Wealth-Planner-Key-Clients---Family-Office-Services--Zrich--100---f-m-d-_r-19033-1",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "dd3664596eb1000e": {
+      "company": "Julius Bär",
+      "title": "Account Manager Private Banking - UK International & Canada Zurich",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Account-Manager-Private-Banking---UK-International---Canada-Zurich_r-19076-2",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "9c42dbb8266a41f4": {
+      "company": "Julius Bär",
+      "title": "Global Financial Accounting – Business Analyst  100%",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/External/job/Zrich/Project-Manager---Analyst-in-Global-Financial-Accounting-100-_r-18176-3",
+      "first_seen": "2026-09-04T13:09:41+00:00"
+    },
+    "9515b35850000453": {
+      "company": "Julius Bär (Internships)",
+      "title": "Internship at CFO Office 100% [Fixed-Term Contract for 6-12 months until 03.06.2028]",
+      "url": "https://juliusbaer.wd3.myworkdayjobs.com/Internships/job/Zrich/Internship-at-CFO-Office-100---Fixed-Term-Contract-for-6-12-months-until-03062028-_r-19514",
+      "first_seen": "2026-09-04T13:09:42+00:00"
+    },
+    "9e7623aeaab64446": {
+      "company": "UBS (professionals)",
+      "title": "Client Advisor Retail International Romandie (80-100%)",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5049&PageType=JobDetails&jobid=349053&frmSiteId=5012",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "f818bc4511f88ba8": {
+      "company": "UBS (professionals)",
+      "title": "Client Advisor Affluent Cité",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5049&PageType=JobDetails&jobid=346307&frmSiteId=5012",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "8b9ca7063e3a0e90": {
+      "company": "UBS (professionals)",
+      "title": "Privatkundenberater/in Affluent/Stv. Teamlead, Rheinfelden 80-100%",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5050&PageType=JobDetails&jobid=348397&frmSiteId=5012",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "eeb4200bef63b9f7": {
+      "company": "UBS (professionals)",
+      "title": "Privatkundenberater/in Retail Bodensee (Rorschach oder Arbon), 80-100%",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5050&PageType=JobDetails&jobid=349156&frmSiteId=5012",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "e2005239b3ab4ed3": {
+      "company": "UBS (professionals)",
+      "title": "Privatkundenberater/in Affluent, Herisau",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5050&PageType=JobDetails&jobid=350165&frmSiteId=5012",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "3da09b1c1009e4bd": {
+      "company": "UBS (professionals)",
+      "title": "Privatkundenberater/in Affluent, Kreuzlingen (80-100%)",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5050&PageType=JobDetails&jobid=349155&frmSiteId=5012",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "9820aae2d985feb2": {
+      "company": "UBS (professionals)",
+      "title": "Associate Program - Client Advisor WM team Central Europe",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=348828",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "de84f95dd89763e6": {
+      "company": "UBS (professionals)",
+      "title": "BANK-now - Kundenberater/in Privatkredit Bern, 80-100%",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5050&PageType=JobDetails&jobid=339314&frmSiteId=5012",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "8a5d419a4d6e22d2": {
+      "company": "UBS (professionals)",
+      "title": "Rechtsanwalt / Rechtsanwältin Investment Bank Global Markets Legal",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=347961",
+      "first_seen": "2026-09-04T13:09:44+00:00"
+    },
+    "4a087968c9e0e8d8": {
+      "company": "UBS (graduates)",
+      "title": "2026 Off-cycle Internship - Group Internal Consulting – Zurich",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=347419",
+      "first_seen": "2026-09-04T13:09:46+00:00"
+    },
+    "4229f129e8f82531": {
+      "company": "UBS (graduates)",
+      "title": "2027 Internship - IB Global Markets Execution Sales - Zurich",
+      "url": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5131&PageType=JobDetails&jobid=350708",
+      "first_seen": "2026-09-04T13:09:46+00:00"
+    },
+    "f26309eee2074f6e": {
+      "company": "Lombard Odier",
+      "title": "Sustainability Research Analyst",
+      "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Sustainability-Research-Analyst_R0007436",
+      "first_seen": "2026-09-04T13:09:48+00:00"
+    },
+    "d5a7b62e1f09f62f": {
+      "company": "Lombard Odier",
+      "title": "IT Business Analyst – Interbank Messaging (80-100%)",
+      "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/IT-Business-Analyst---Interbank-Messaging--80-100--_R0007220",
+      "first_seen": "2026-09-04T13:09:48+00:00"
+    },
+    "735d20da29d01bbd": {
+      "company": "Lombard Odier",
+      "title": "Internship - Enhancing Financial Knowledge Access with Generative AI",
+      "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Internship---Enhancing-Financial-Knowledge-Access-with-Generative-AI_R0007258",
+      "first_seen": "2026-09-04T13:09:48+00:00"
+    },
+    "9fe81e40b9b39d7c": {
+      "company": "Lombard Odier",
+      "title": "Risk Manager - Investment Risk & Suitability",
+      "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Risk-Manager---Investment-Risk---Suitability_R0007354",
+      "first_seen": "2026-09-04T13:09:48+00:00"
+    },
+    "fa7ae6a68ce2978c": {
+      "company": "Lombard Odier",
+      "title": "IT Internal Auditor (80-100%)",
+      "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/IT-Internal-Auditor_R0007140",
+      "first_seen": "2026-09-04T13:09:48+00:00"
+    },
+    "166a2d6a338ca3cb": {
+      "company": "Lombard Odier",
+      "title": "Private Banking Assistant - Swiss Domestic - Vevey (80-100%)",
+      "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Vevey/Private-Banking-Assistant---Swiss-Domestic---Vevey--80-100--_R0007176",
+      "first_seen": "2026-09-04T13:09:48+00:00"
+    },
+    "cf3921fb42feaf6c": {
+      "company": "Lombard Odier",
+      "title": "Private Assets Investment Analyst",
+      "url": "https://lombardodier.wd3.myworkdayjobs.com/Lombard_Odier_Careers/job/Geneva/Private-Assets-Investment-Analyst_R0006952",
+      "first_seen": "2026-09-04T13:09:48+00:00"
+    },
+    "a6c91a3294f2c1bd": {
+      "company": "Mirabaud",
+      "title": "Investment Advisor - EAM",
+      "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000147483959",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "323790321f999d16": {
+      "company": "Mirabaud",
+      "title": "Corporate Actions Officer (9-months mission)",
+      "url": "https://www.mirabaud.com/en/careers/job-opportunities/job-details/744000145704284",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "ab473016f6154629": {
+      "company": "LGT",
+      "title": "Client Onboarding Associate",
+      "url": "https://www.lgt.com/global-en/career/jobs/client-onboarding-associate-370018",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "147e5c3c211450f7": {
+      "company": "LGT",
+      "title": "Business Analyst",
+      "url": "https://www.lgt.com/global-en/career/jobs/business-analyst-355780",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "c6c49d2c61ec53ec": {
+      "company": "LGT (DE)",
+      "title": "Portfolio Manager - Multi-Asset Strategies 100% (w/m/d)",
+      "url": "https://www.lgt.com/global-de/karriere/jobs/portfolio-manager-multi-asset-strategies-100-w-m-d--370600",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "687878401774e991": {
+      "company": "LGT (DE)",
+      "title": "Praktikum Client Data Services (m/w/d)",
+      "url": "https://www.lgt.com/global-de/karriere/jobs/praktikum-client-data-services-m-w-d--368800",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "d3dc7cdeac9eac54": {
+      "company": "LGT (DE)",
+      "title": "Relationship Manager AT (m/w/d)",
+      "url": "https://www.lgt.com/global-de/karriere/jobs/relationship-manager-at-m-w-d--117664",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "41efcd45d141c446": {
+      "company": "LGT (DE)",
+      "title": "Assistant Relationship Manager EAM 80-100% (w/m/d), Vaduz",
+      "url": "https://www.lgt.com/global-de/karriere/jobs/assistant-relationship-manager-eam-80-100-w-m-d-vaduz-362740",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "d9515f87778fc2f4": {
+      "company": "LGT (DE)",
+      "title": "Relationship Manager Markt International (m/w/d)",
+      "url": "https://www.lgt.com/global-de/karriere/jobs/relationship-manager-markt-international-m-w-d--362500",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "1461e99d2d1b27e9": {
+      "company": "LGT (DE)",
+      "title": "Trainee im Bereich Group Markets & Trading Compliance 80%-100% befr. 12 Monate (w/m/d)",
+      "url": "https://www.lgt.com/global-de/karriere/jobs/trainee-im-bereich-group-markets-trading-compliance-80-100-befr-12-monate-w-m-d--370154",
+      "first_seen": "2026-09-04T13:09:49+00:00"
+    },
+    "d91a400e9d73b9f2": {
+      "company": "Rothschild & Co",
+      "title": "Third-Party Risk Analyst",
+      "url": "https://rothschildandco.wd3.myworkdayjobs.com/Rothschildandco_Lateral/job/Zurich/Third-Party-Risk-Analyst_JR016315",
+      "first_seen": "2026-09-04T13:09:53+00:00"
+    },
+    "932c7844c95080e0": {
+      "company": "Indosuez Wealth Management",
+      "title": "Ref. 2026-114627",
+      "url": "https://jobs.ca-indosuez.com/job/job-investment-advisor-marche-amerique-latine-h-f_114627.aspx",
+      "first_seen": "2026-09-04T13:09:54+00:00"
+    },
+    "682ad21272b3cc03": {
+      "company": "Swissquote",
+      "title": "Client Service Representative - BTA",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/postings/744000143770949",
+      "first_seen": "2026-09-04T13:09:55+00:00"
+    },
+    "c1e43f89f8493198": {
+      "company": "Swissquote",
+      "title": "Internal Controlling Officer",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/postings/744000141944059",
+      "first_seen": "2026-09-04T13:09:55+00:00"
+    },
+    "e977d803621ff99e": {
+      "company": "Swissquote",
+      "title": "Client Service Representative",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/postings/744000141185012",
+      "first_seen": "2026-09-04T13:09:55+00:00"
+    },
+    "91cf1323b3422208": {
+      "company": "Swissquote",
+      "title": "Fraud Analyst Officer ",
+      "url": "https://jobs.smartrecruiters.com/Swissquote/postings/744000140610467",
+      "first_seen": "2026-09-04T13:09:55+00:00"
+    },
+    "599ad6020ba3dedc": {
+      "company": "Liechtensteinische Landesbank (LLB)",
+      "title": "Spezialist:in Fondsadministration LLB Swiss Investment AG",
+      "url": "https://recruitingapp-2677.umantis.com/Vacancies/1989/Description/1",
+      "first_seen": "2026-09-04T13:09:56+00:00"
+    },
+    "cbf5d5d534b67905": {
+      "company": "Liechtensteinische Landesbank (LLB)",
+      "title": "Kundenberater:in Service Direkt",
+      "url": "https://recruitingapp-2677.umantis.com/Vacancies/1986/Description/1",
+      "first_seen": "2026-09-04T13:09:56+00:00"
+    },
+    "afea28d62d0104de": {
+      "company": "Liechtensteinische Landesbank (LLB)",
+      "title": "Associate Institutional Banking",
+      "url": "https://recruitingapp-2677.umantis.com/Vacancies/1983/Description/1",
+      "first_seen": "2026-09-04T13:09:56+00:00"
+    },
+    "4c01cb584ea203da": {
+      "company": "Liechtensteinische Landesbank (LLB)",
+      "title": "Kundenberater:in Berufliche Vorsorge",
+      "url": "https://recruitingapp-2677.umantis.com/Vacancies/1976/Description/1",
+      "first_seen": "2026-09-04T13:09:56+00:00"
+    },
+    "bfd264679955e93b": {
+      "company": "Liechtensteinische Landesbank (LLB)",
+      "title": "Traineeprogramm Institutional Banking",
+      "url": "https://recruitingapp-2677.umantis.com/Vacancies/1980/Description/1",
+      "first_seen": "2026-09-04T13:09:56+00:00"
+    },
+    "78195c411682c3e2": {
+      "company": "Frankfurter Bankgesellschaft (Schweiz)",
+      "title": "Junior Portfoliomanager (w/m/d)",
+      "url": "https://www.frankfurter-bankgesellschaft.com/de/stellenangebot/junior-portfoliomanager-wmd",
+      "first_seen": "2026-09-04T13:09:57+00:00"
+    },
+    "969ae6d5f17fedba": {
+      "company": "Zürcher Kantonalbank",
+      "title": "Kundenberater:in Privatkunden",
+      "url": "https://apply.refline.ch/792841/10931/pub/3",
+      "first_seen": "2026-09-04T13:10:03+00:00"
+    },
+    "c0da069d3f3bfac7": {
+      "company": "Zürcher Kantonalbank",
+      "title": "Assistent:in Private Banking (Key Clients)",
+      "url": "https://apply.refline.ch/792841/11308/pub/1",
+      "first_seen": "2026-09-04T13:10:03+00:00"
+    },
+    "cc783acc4ce0325d": {
+      "company": "Zürcher Kantonalbank",
+      "title": "Kundenberater:in Versicherungsbrokerage, Berufliche Vorsorge",
+      "url": "https://apply.refline.ch/792841/11339/pub/1",
+      "first_seen": "2026-09-04T13:10:03+00:00"
+    },
+    "01702a45ede4a594": {
+      "company": "Zürcher Kantonalbank",
+      "title": "Sachbearbeiter:in Steuern",
+      "url": "https://apply.refline.ch/792841/11344/pub/1",
+      "first_seen": "2026-09-04T13:10:03+00:00"
+    },
+    "d038444979d48cfc": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater/in oder Privatkundenberater/in mit Schaltertätigkeit",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-in-oder-privatkundenberater-in-mit-schaltertaetigkeit/014ab717-cc6f-42bd-8b45-ff7509949e40",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "96d655b300aafd0b": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater:in (m/w/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-in-m-w-d/d60e512a-de6a-403b-a2d8-ffcd17443ea5",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "674fb8e5763aa5cb": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater Individual (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-individual-w-m-d/38806faf-ddff-4771-918f-96a9127865ab",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "f2d2b40ffefb5594": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Conseiller-ère clientèle placement junior",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/conseiller-ere-clientele-placement-junior/fec34011-ea5c-4f2d-8615-7ab0cf144469",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "03ebbfb39b49c492": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberaterin Basis (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberaterin-basis-w-m-d/18234997-c48b-4553-aaa0-0aa8607447c6",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "13b24810a48e35c2": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Threat Intelligence Analyst (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/threat-intelligence-analyst-w-m-d/d31a0130-7f6e-41aa-a024-451c77a43578",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "e13537009ea71fb5": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Un·e Relationship Manager Private Banking / Conseiller·ère en Gestion de Fortune",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/une-relationship-manager-private-banking-conseillerere-en-gestion-de-fortune/00d3f67d-4773-4a15-8f7f-a69040af8355",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "dc5ce87b93407ed6": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Firmenkundenberater/in",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/firmenkundenberater-in/e9f6aa73-555d-4632-b90b-4ec9dfe7b7d1",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "5711d1d1b0b1bee1": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater:in (m/w/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-in-m-w-d/e9517933-e181-496d-884d-6a468e674648",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "1f94e299f00fdfa8": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Firmenkundenberater (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/firmenkundenberater-w-m-d/af9d8a83-00ad-4b22-8018-4edb8301466a",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "acf39e5964be7f70": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater Individual (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-individual-w-m-d/68a3800f-2938-4946-bfa6-efd20d3b6d41",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "98989a8eb8d799bb": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater Basis (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-basis-w-m-d/83edd077-bff3-4987-891f-300273b32e6a",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "9e86dac6db02eafd": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater Bank (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-bank-w-m-d/3c09cfdb-2682-4d88-ab52-1862061a4068",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "fd73010c254838ac": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater:in Basis (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-in-basis-w-m-d/57382140-f585-453b-a7f2-bc97c7ffb79b",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "ebc2fe91783fb28c": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Firmenkundenberater (m/w/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/firmenkundenberater-m-w-d/ba8bdd61-f489-43a8-a822-aa60e2ec3572",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "227ac7853b920f5e": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater (m,w,d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-m-w-d/3ff10a3c-4c52-4941-bea7-25ce348f5ad0",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "b3e2a572d6b8da93": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater*in Individual Junior (m/w/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-in-individual-junior-m-w-d/22c71aa8-b062-40b8-aa62-80f4f2f29cf7",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "1e7d318e563ccf34": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Vermögensberater*in Junior (m/w/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/vermoegensberater-in-junior-m-w-d/04c81665-956c-4712-958f-4d15d32f6bbd",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "548a4e0cd8a6cb3c": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Programme Trainee 2026 - Banque Raiffeisen Villes et Vignobles genevois",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/programme-trainee-2026-banque-raiffeisen-villes-et-vignobles-genevois/d3d03933-72c5-4d31-97cc-c495888dede8",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "7e301a4490a669a1": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-w-m-d/fd5f4239-1bdb-4262-9767-1c6915fc6e93",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "3511d5573305ecf5": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater (m/w/d",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-m-w-d/1400436b-27b4-4611-b715-2138ff9358c3",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "f5dec31cabdda760": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-w-m-d/5a2f1f47-b9ca-4e55-8351-9df4400ef264",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "3b1934c91e01d1f9": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-w-m-d/2e1cf9ab-2b4b-46d1-b815-ec3fb4c6a6f5",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "9190d8ae9b653c48": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater:in",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-in/0b9c51f5-7003-4aae-b0dd-82087b8f25d9",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "cffef8d51d9843c4": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Trainee-Programm 2026 Raiffeisenbank Wohlen",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/trainee-programm-2026-raiffeisenbank-wohlen/13a003c3-7da1-445c-ac25-809b8eddda0b",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "e88719b74db006d1": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater Basis (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-basis-w-m-d/df2f7d30-e145-42d5-a464-785422b035b9",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "7709512548c3c76f": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Individualkundenberater:in",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/individualkundenberater-in/6f150b40-b5db-452b-9684-9f16515e1697",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "23f0be870b2b61b0": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater (a)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-a/83af0a36-1745-4859-835c-f6ebf086d6ee",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "4f576786d067cf2f": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Firmenkundenberater (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/firmenkundenberater-w-m-d/55e8b6ad-7087-426a-afe2-0ca47c116182",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "536e3ecae6545b2e": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater Privatkunden Individual (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-privatkunden-individual-w-m-d/d70a1f2f-f3e8-444c-bbb2-98769c7b261d",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "346984d8fc666b0c": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater, Fokus: Finanzieren (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-fokus-finanzieren-w-m-d/a4dad321-db69-45ec-a0da-e7c569dc93b0",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "4b1d5501091d8fa8": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater Basis (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-basis-w-m-d/4901ed11-fe66-44ff-a7a1-f1d3f4fbd8f3",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "9dc0a08e86b0f887": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Individualkundenberater (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/individualkundenberater-w-m-d/fb1fa3df-228c-4480-a3b7-33453b10f1d3",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "c8a45af495876e9a": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Kundenberater Basis (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kundenberater-basis-w-m-d/0244e0c2-6e5a-4755-a999-c98a3e687f9e",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "2f5d355d75806530": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater/in",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-in/553495cc-8d6d-49e3-8325-847b509cac0e",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "28e49f9bf33ecf58": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Vermögensberater/in - Nachfolgeregelung",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/vermoegensberater-in-nachfolgeregelung/1d3ab120-2956-4277-a329-bbfc00434b7a",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "d7d2b00b2629dee1": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Firmenkundenberater/In 80 - 100%",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/firmenkundenberater-in/b98be387-a10f-4045-8b3c-896cd1338311",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "8505b45a96582528": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-w-m-d/93ce60c6-38a7-41a0-b5e7-77d7a0985dbe",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "ea8867d0a2e3da38": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Firmenkundenberater/in",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/firmenkundenberater-in/2fd167c3-d7ef-45d8-b2d6-acc5031e7734",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "f88500b5a72bf792": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater Basis (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-basis-w-m-d/e976e449-5fea-4396-9c7d-71b2c704a622",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "34e6257b659085d4": {
+      "company": "Raiffeisen Schweiz",
+      "title": "KMU- / Firmenkundenberater:in (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/kmu-firmenkundenberater-in-w-m-d/218f77e8-1cdd-4e67-bd42-3813bed7049b",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "fa32fede5a5b2935": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater:in (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-in-w-m-d/641495a1-61ed-47f4-b072-3b9a8c0ebc0b",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "405bcf2183b1c630": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Privatkundenberater Individual (m/w/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/privatkundenberater-individual-m-w-d/85ac9b11-2f22-4a89-89b6-157c6be4485a",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "bfa4962f22ed2989": {
+      "company": "Raiffeisen Schweiz",
+      "title": "Individualkundenberater/in (w/m/d)",
+      "url": "https://jobs.raiffeisen.ch/offene-stellen/individualkundenberater-in-w-m-d/4ea3f921-7031-41da-b61f-fec8f08b25b4",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "c45bfef23a4626aa": {
+      "company": "Berner Kantonalbank (BEKB)",
+      "title": "Kundenberaterin / Kundenberater (a)",
+      "url": "https://jobs.bekb.ch/offene-stellen/kundenberaterin-kundenberater-a/ac6bd944-968f-4988-8ddb-940c2ca3565c",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "e57c82972dc48f28": {
+      "company": "Berner Kantonalbank (BEKB)",
+      "title": "Kundenberaterin / Kundenberater Basis Privatkunden (a)",
+      "url": "https://jobs.bekb.ch/offene-stellen/kundenberaterin-kundenberater-basis-privatkunden-a/2c170ec6-0008-4c81-8126-6d35f22138df",
+      "first_seen": "2026-09-04T13:10:04+00:00"
+    },
+    "a0fbb42fc3b8a58a": {
+      "company": "Bank WIR",
+      "title": "Praktikum (BEM) 2027",
+      "url": "https://recruitingapp-2961.umantis.com/Vacancies/443/Description/1",
+      "first_seen": "2026-09-04T13:10:08+00:00"
+    },
+    "9ae9eb6d7b63f589": {
+      "company": "Hypothekarbank Lenzburg",
+      "title": "Assistent:in Private Banking 80 - 100%",
+      "url": "https://jobs.hbl.ch/Assistentin-Private-Banking-80-100-de-j891.html?sid=a33185d08e85cb6a74eb0183c13507b6",
+      "first_seen": "2026-09-04T13:10:09+00:00"
+    },
+    "8e12e990468e5b9f": {
+      "company": "Hypothekarbank Lenzburg",
+      "title": "Individualkundenberater:in 80-100%",
+      "url": "https://jobs.hbl.ch/Individualkundenberaterin-80-100-de-j882.html?sid=a33185d08e85cb6a74eb0183c13507b6",
+      "first_seen": "2026-09-04T13:10:09+00:00"
+    },
+    "a1f270404e59f5a7": {
+      "company": "Hypothekarbank Lenzburg",
+      "title": "Individualkundenberater:in 80-100%",
+      "url": "https://jobs.hbl.ch/Individualkundenberaterin-80-100-de-j897.html?sid=a33185d08e85cb6a74eb0183c13507b6",
+      "first_seen": "2026-09-04T13:10:09+00:00"
+    },
+    "f3909a779b5852fa": {
+      "company": "Hypothekarbank Lenzburg",
+      "title": "Individualkundenberater:in 80-100%",
+      "url": "https://jobs.hbl.ch/Individualkundenberaterin-80-100-de-j905.html?sid=a33185d08e85cb6a74eb0183c13507b6",
+      "first_seen": "2026-09-04T13:10:09+00:00"
+    },
+    "258a564a90ab3715": {
+      "company": "Hypothekarbank Lenzburg",
+      "title": "Junior Individualkundenberater:in 80-100%",
+      "url": "https://jobs.hbl.ch/Junior-Individualkundenberaterin-80-100-de-j886.html?sid=a33185d08e85cb6a74eb0183c13507b6",
+      "first_seen": "2026-09-04T13:10:09+00:00"
+    },
+    "e6d4b7683acbef9f": {
+      "company": "Hypothekarbank Lenzburg",
+      "title": "Kundenberater:in Customer Value Center 60-100% bei Swiss Bankers",
+      "url": "https://jobs.hbl.ch/Kundenberaterin-Customer-Value-Center-60-100-bei-Swiss-Ban-de-j887.html?sid=a33185d08e85cb6a74eb0183c13507b6",
+      "first_seen": "2026-09-04T13:10:09+00:00"
+    },
+    "572baf0930c54add": {
+      "company": "Hypothekarbank Lenzburg",
+      "title": "Privatkundenberater:in 80-100%",
+      "url": "https://jobs.hbl.ch/Privatkundenberaterin-80-100-de-j899.html?sid=a33185d08e85cb6a74eb0183c13507b6",
+      "first_seen": "2026-09-04T13:10:09+00:00"
+    },
+    "1cbab636b00f80eb": {
+      "company": "Zuger Kantonalbank",
+      "title": "Privatkundenberater/in für standortübergreifende Einsätze",
+      "url": "https://www.zugerkb.ch/die-zugerkb/jobs-und-karriere/offene-stellen/job-beschrieb?JobDetail=ALGU1995-1",
+      "first_seen": "2026-09-04T13:10:10+00:00"
+    },
+    "048b4a41086ae61d": {
+      "company": "Zuger Kantonalbank",
+      "title": "Praktikum Bankeinstieg nach Matura (BEM)",
+      "url": "https://www.zugerkb.ch/die-zugerkb/jobs-und-karriere/offene-stellen/job-beschrieb?JobDetail=SAEI1983-5",
+      "first_seen": "2026-09-04T13:10:10+00:00"
+    },
+    "b69665fadda947a9": {
+      "company": "Zuger Kantonalbank",
+      "title": "Praktikum Marketing und Kommunikation (WMS)",
+      "url": "https://www.zugerkb.ch/die-zugerkb/jobs-und-karriere/offene-stellen/job-beschrieb?JobDetail=SAEI1986-5",
+      "first_seen": "2026-09-04T13:10:10+00:00"
+    },
+    "e06768ac1442ffcd": {
+      "company": "Bank SLM",
+      "title": "Individualkundenberater: in 80-100%",
+      "url": "https://karriere.bankslm.ch/jobs/8235007-individualkundenberater-in-80-100",
+      "first_seen": "2026-09-04T13:10:20+00:00"
+    },
+    "7846a13bee6f863c": {
+      "company": "Bank SLM",
+      "title": "Privatkundenberater:in Basis 60 - 80%",
+      "url": "https://karriere.bankslm.ch/jobs/7019430-privatkundenberater-in-basis-60-80",
+      "first_seen": "2026-09-04T13:10:20+00:00"
+    },
+    "516b58b15512459f": {
+      "company": "Bank CIC (Schweiz)",
+      "title": "Relationship Manager Financing - Corporate Clients (100%)",
+      "url": "https://cic.jobportal.abaservices.ch/job-overview/de",
+      "first_seen": "2026-09-04T13:10:21+00:00"
+    },
+    "0164fb714741faaa": {
+      "company": "Bank CIC (Schweiz)",
+      "title": "Business Analyst Finance (Accounting, Cost & Fees, Tax) 100%",
+      "url": "https://cic.jobportal.abaservices.ch/job-overview/de",
+      "first_seen": "2026-09-04T13:10:21+00:00"
+    },
+    "713756bedc423423": {
+      "company": "Bank CIC (Schweiz)",
+      "title": "Relationship Manager Financing - Corporate Clients (100%)",
+      "url": "https://cic.jobportal.abaservices.ch/job-overview/de",
+      "first_seen": "2026-09-04T13:10:21+00:00"
+    },
+    "8e8e608c16922b18": {
+      "company": "SIX Group",
+      "title": "Internship Tax Services",
+      "url": "https://jobs.six-group.com/job/Olten-Internship-Tax-Services/1430474233/",
+      "first_seen": "2026-09-04T13:10:23+00:00"
+    },
+    "897f9b35c30cc048": {
+      "company": "SIX Group",
+      "title": "Working Student Data Analyst 60-80%",
+      "url": "https://jobs.six-group.com/job/Zurich-Working-Student-Data-Analyst-60-80/1428193833/",
+      "first_seen": "2026-09-04T13:10:23+00:00"
+    },
+    "07af4aa6526729fe": {
+      "company": "SIX Group",
+      "title": "Client Service Manager (80 - 100%)",
+      "url": "https://jobs.six-group.com/job/Olten-Client-Service-Manager-%2880-100%29/1425295333/",
+      "first_seen": "2026-09-04T13:10:23+00:00"
+    },
+    "3a856654ada1b26a": {
+      "company": "Swiss Re",
+      "title": "Financial Accounting Intra Group Retrocessions Intern (m/f/x/d, 80-100%)",
+      "url": "https://careers.swissre.com/job/Zurich-Financial-Accounting-Intra-Group-Retrocessions-Intern-%28mfxd%2C-80-100%29-Zuri/1426193633/",
+      "first_seen": "2026-09-04T13:10:25+00:00"
+    },
+    "5c7b5077708fc577": {
+      "company": "JPMorgan",
+      "title": "2027 Global Private Bank - Advisor Analyst Training Program - Geneva",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773747",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "2b3223c88f1c8cd0": {
+      "company": "JPMorgan",
+      "title": "2027 Global Private Bank - Advisor Analyst Training Program - Geneva LatAm",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773758",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "e3e9ee85fe42f0c3": {
+      "company": "JPMorgan",
+      "title": "2027 Global Private Bank - Advisor Analyst Training Program - Zurich",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773851",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "f4045fbaad31d2da": {
+      "company": "JPMorgan",
+      "title": "2027 Global Private Bank - Advisor Summer Internship Program - Geneva",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773855",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "cc0f20ff0b75ea5c": {
+      "company": "JPMorgan",
+      "title": "2027 Global Private Bank - Advisor Summer Internship Program - Geneva LatAm",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773872",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "6ad3dbc1d815762f": {
+      "company": "JPMorgan",
+      "title": "2027 Global Private Bank - Advisor Summer Internship Program - Zurich",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774235",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "58d84a21237435bd": {
+      "company": "JPMorgan",
+      "title": "2027 Global Corporate Banking Program - Large Cap - Off-Cycle Internship (Sept-Dec) - Zurich",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779707",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "830f94baf7e3905b": {
+      "company": "JPMorgan",
+      "title": "Associate Banker, 30 Hours, Banker Chicago North Suburbs Area - Multiple locations",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210782007",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    },
+    "7c45f2677fcc347b": {
+      "company": "JPMorgan",
+      "title": "International Private Bank (IPB) Treasury - Associate",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210779053",
+      "first_seen": "2026-09-04T13:11:37+00:00"
+    }
+  }
+}

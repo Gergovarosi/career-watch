@@ -1,0 +1,465 @@
+# ===========================================================================
+# SZŰRŐK
+# A pozíció CÍMÉN + HELYSZÍNÉN dolgoznak, kisbetűsítve, részleges egyezéssel.
+# ===========================================================================
+filters:
+  # Csak akkor jelez, ha LEGALÁBB EGY illeszkedik. Üresen = minden átmegy.
+  include_keywords:
+    - analyst
+    - analyst:in
+    - praktikum
+    - internship
+    - intern
+    - trainee
+    - graduate
+    - junior
+    - einsteiger
+    - werkstudent
+    - masterarbeit
+    - associate
+    - relationship manager
+    - client advisor
+    - client service
+    - kundenberater
+    - wealth
+    - vermögens
+    - private bank
+    - portfolio
+    - asset management
+    - investment
+    - research
+    - product specialist
+    - rfp
+    - fixed income
+    - equity
+    - markets
+    - treasury
+
+  # Ha BÁRMELYIK illeszkedik, kiesik. Ez a zajszűrő.
+  exclude_keywords:
+    - senior
+    - "lead "
+    - head of
+    - director
+    - "vice president"
+    - "managing director"
+    - "md,"
+    - "team head"
+    - executive
+    - leiter
+    - principal
+    - lehrstelle
+    - apprentice
+    # nem pénzügyi zaj a nagy portálokon:
+    - software
+    - engineer
+    - developer
+    - cloud
+    - cyber
+    - devops
+
+  # Svájci helyszínek. A nagy portálok kiírják az országot/várost.
+  # (Ha egy adapter nem talál helyszínt, a szűrő átengedi, hogy ne veszíts pozíciót.)
+  locations:
+    - switzerland
+    - schweiz
+    - suisse
+    - svizzera
+    - zurich
+    - zürich
+    - zuerich
+    - geneva
+    - genève
+    - genf
+    - basel
+    - basle
+    - bern
+    - berne
+    - lausanne
+    - lugano
+    - zug
+    - winterthur
+    - st. gallen
+    - st gallen
+    - pfäffikon
+    - schwyz
+    - luzern
+    - lucerne
+    - gland
+    - nyon
+    - vevey
+    - montreux
+    - fribourg
+    - freiburg
+    - sion
+    - chur
+    - aarau
+    - schaffhausen
+    - thun
+    - biel
+    - neuchâtel
+    - neuchatel
+    - olten
+    - solothurn
+    - baden
+    - frauenfeld
+    - kreuzlingen
+    - vaduz          # Liechtenstein (LGT, LLB) — töröld, ha nem kell
+    - liechtenstein
+    # (a "CH" országkódot a program magától felismeri, pl. "Gland, CH")
+
+# ===========================================================================
+# CÉGEK
+#
+# Frissítve: 2026-09-04 (Claude) — 127 svájci bank/pénzügyi cég felderítése után.
+# Minden bejegyzés a Macen élesben tesztelve. A "type" a karrierportál rendszere.
+#
+# ÚJ CÉG HOZZÁADÁSA:
+#   python probe.py https://www.cegneve.com/careers --name "Cég AG"
+# Kikapcsolás: írj a bejegyzéshez egy   enabled: false   sort.
+# ===========================================================================
+companies:
+
+  # --- eredeti, ellenőrzött -------------------------------------------------
+
+  - name: "Citi Switzerland"
+    type: joblinks
+    url: "https://jobs.citi.com/location/switzerland/5441/2658434/2"
+    link_pattern: "/job/"
+
+  - name: "Vontobel"
+    type: joblinks
+    url: "https://www.vontobel.com/en/about-vontobel/careers/open-positions/"
+    link_pattern: "/open-positions/"
+    title_attr: true
+
+  - name: "Julius Bär"
+    type: workday
+    token: "juliusbaer/wd3/External"
+
+  - name: "Julius Bär (Internships)"
+    type: workday
+    token: "juliusbaer/wd3/Internships"
+
+  - name: "UBS (professionals)"
+    type: brassring
+    token: "25008/5012"
+
+  - name: "UBS (graduates)"
+    type: brassring
+    token: "25008/5131"
+
+  # --- svájci privátbankok / vagyonkezelők ----------------------------------
+
+  - name: "Lombard Odier"
+    type: workday
+    token: "lombardodier/wd3/Lombard_Odier_Careers"
+
+  - name: "Mirabaud"
+    type: joblinks
+    url: "https://www.mirabaud.com/en/careers/job-opportunities"
+    link_pattern: "/job-details/"
+
+  - name: "LGT"
+    type: joblinks
+    url: "https://www.lgt.com/global-en/career/jobs"
+    link_pattern: "/career/jobs/.+-\\d+$"
+
+  - name: "LGT (DE)"
+    type: joblinks
+    url: "https://www.lgt.com/global-de/karriere/jobs"
+    link_pattern: "/karriere/jobs/.+-\\d+$"
+
+  - name: "Rothschild & Co"
+    type: workday
+    token: "rothschildandco/wd3/Rothschildandco_Lateral"
+    filters:
+      strict_location: true
+
+  - name: "Quintet Private Bank"
+    type: joblinks
+    url: "https://www.quintet.com/en-gb/your-career-at-quintet/vacancies"
+    link_pattern: "/vacancies/job/"
+    filters:
+      strict_location: true
+
+  - name: "Indosuez Wealth Management"
+    type: joblinks
+    url: "https://jobs.ca-indosuez.com/accueil.aspx?lcid=2057"
+    link_pattern: "/job/job-"
+    filters:
+      strict_location: true
+
+  - name: "Swissquote"
+    type: smartrecruiters
+    token: "Swissquote"
+
+  - name: "Cembra Money Bank"
+    type: softgarden
+    url: "https://careers.cembra.ch"
+
+  - name: "Bank Frick"
+    type: softgarden
+    url: "https://karriere.bankfrick.li"
+
+  - name: "Liechtensteinische Landesbank (LLB)"
+    type: joblinks
+    url: "https://recruitingapp-2677.umantis.com/Jobs/All"
+    link_pattern: "/Vacancies/\\d+/Description"
+
+  - name: "Rahn+Bodmer"
+    type: joblinks
+    url: "https://jobs.rahnbodmer.ch/stellenangebote.html"
+    link_pattern: "-j\\d+\\.html"
+
+  - name: "Frankfurter Bankgesellschaft (Schweiz)"
+    type: joblinks
+    url: "https://www.frankfurter-bankgesellschaft.com/de/karriere"
+    link_pattern: "/stellenangebot/"
+
+  - name: "Baumann & Cie"
+    type: joblinks
+    url: "https://www.baumann-banquiers.ch/karriere"
+    link_pattern: "/karriere/[a-z0-9_]+$"
+
+  - name: "Globalance"
+    type: joblinks
+    url: "https://www.globalance.com/karriere/"
+    link_pattern: "/karriere/[a-z0-9-]+/$"
+
+  - name: "Bergos"
+    type: joblinks
+    url: "https://www.bergos.ch/de/karriere/"
+    link_pattern: "/wp-content/uploads/.*\\.pdf$"
+
+  - name: "Scobag Privatbank"
+    type: joblinks
+    url: "https://www.scobag.ch/unternehmen/jobs"
+    link_pattern: "/assets/files/jobs/"
+
+  - name: "Lienhardt & Partner"
+    type: joblinks
+    url: "https://www.lienhardt.ch/karriere/"
+    link_pattern: "/wp-content/uploads/.*\\.pdf$"
+
+  - name: "Fisch Asset Management"
+    type: personio
+    token: "fisch-asset-management-ag"
+
+  - name: "GAM"
+    type: workday
+    token: "gam/wd3/GAM"
+    filters:
+      strict_location: true
+
+  - name: "Bellevue / Partners Group / Leonteq"
+    enabled: false
+    type: html
+    url: "https://www.partnersgroup.com/en/careers/"
+    # JavaScript tölti be a listát — kézi vizsgálat kell, addig kikapcsolva
+
+  # --- svájci univerzális / kantonális / regionális bankok -------------------
+
+  - name: "Zürcher Kantonalbank"
+    type: joblinks
+    url: "https://apply.refline.ch/792841/search.html"
+    link_pattern: "/792841/\\d+/pub/"
+
+  - name: "Raiffeisen Schweiz"
+    type: ohws
+    token: "1950"
+    url: "https://jobs.raiffeisen.ch/"
+
+  - name: "Berner Kantonalbank (BEKB)"
+    type: ohws
+    token: "1509"
+    url: "https://www.bekb.ch/de/die-bekb/arbeitgeberin/stellen"
+
+  - name: "Basler Kantonalbank (BKB)"
+    type: joblinks
+    url: "https://recruitingapp-2839.umantis.com/Jobs/All"
+    link_pattern: "/Vacancies/\\d+/Description"
+
+  - name: "Basellandschaftliche Kantonalbank (BLKB)"
+    # 2026-09-04: a lista üresen jött vissza — nézd meg böngészőben, hogy tényleg nincs-e nyitott állás
+    type: joblinks
+    url: "https://recruitingapp-2923.umantis.com/Jobs/All"
+    link_pattern: "/Vacancies/\\d+/Description"
+
+  - name: "Graubündner Kantonalbank (GKB)"
+    type: joblinks
+    url: "https://recruitingapp-2607.umantis.com/Jobs/All"
+    link_pattern: "/Vacancies/\\d+/Description"
+
+  - name: "Bank WIR"
+    type: joblinks
+    url: "https://recruitingapp-2961.umantis.com/Jobs/All"
+    link_pattern: "/Vacancies/\\d+/Description"
+
+  - name: "Alternative Bank Schweiz"
+    type: joblinks
+    url: "https://recruitingapp-2745.umantis.com/Jobs/All"
+    link_pattern: "/Vacancies/\\d+/Description"
+
+  - name: "Glarner Kantonalbank"
+    type: joblinks
+    url: "https://stellen.glkb.ch/stellenangebote.html"
+    link_pattern: "-j\\d+\\.html"
+
+  - name: "Hypothekarbank Lenzburg"
+    type: joblinks
+    url: "https://jobs.hbl.ch/stellenangebote.html"
+    link_pattern: "-j\\d+\\.html"
+
+  - name: "Zuger Kantonalbank"
+    type: joblinks
+    url: "https://www.zugerkb.ch/die-zugerkb/jobs-und-karriere/offene-stellen"
+    link_pattern: "JobDetail="
+
+  - name: "St.Galler Kantonalbank"
+    type: joblinks
+    url: "https://www.sgkb.ch/de/ueber-uns/karriere/stellenangebote"
+    link_pattern: "/stellenangebote/\\d+-"
+
+  - name: "Banque Cantonale du Valais (WKB)"
+    type: joblinks
+    url: "https://www.bcvs.ch/de/die-wkb/karriere/human-resources/stellenangebote"
+    link_pattern: "/stellenangebote/jobs/"
+
+  - name: "Banque Cantonale Neuchâteloise"
+    type: joblinks
+    url: "https://www.bcn.ch/la-bcn/carrieres/postes-ouverts"
+    link_pattern: "/postes-ouverts/[a-z0-9-]+$"
+
+  - name: "Urner Kantonalbank"
+    type: joblinks
+    url: "https://www.ukb.ch/ueber-uns/jobs-und-karriere/offene-stellen"
+    link_pattern: "/offene-stellen/stelleninserat-"
+
+  - name: "Bank EEK"
+    type: joblinks
+    url: "https://www.eek.ch/de/bank-eek/offene-stellen"
+    link_pattern: "/offene-stellen/[a-z0-9-]+$"
+
+  - name: "Bank Zimmerberg"
+    type: joblinks
+    url: "https://www.bankzimmerberg.ch/ueber-uns/jobs/"
+    link_pattern: "/job/[a-z0-9-]+/$"
+
+  - name: "Bank SLM"
+    type: rss
+    url: "https://karriere.bankslm.ch/jobs.rss"
+
+  - name: "Bank CIC (Schweiz)"
+    type: jsonapi
+    url: "https://api.jobportal.abaservices.ch/api/extern/v1/job-portal/b9738cd7-c247-4eae-b4f5-d7dfa770eba5/publications"
+    title: "JobTitle"
+    location: "CompanyCity"
+    id: "JobId"
+    link: "none"
+    link_template: "https://cic.jobportal.abaservices.ch/job-overview/de"
+
+  - name: "Regiobank Solothurn"
+    type: jsonapi
+    url: "https://api.jobportal.abaservices.ch/api/extern/v1/job-portal/383c363e-7df4-4be4-818b-cea93ee05149/publications"
+    title: "JobTitle"
+    location: "CompanyCity"
+    id: "JobId"
+    link: "none"
+    link_template: "https://www.regiobank.ch/karriere#offene-stellen"
+
+  - name: "Habib Bank Zürich"
+    type: joblinks
+    url: "https://habibbank.com/careers/"
+    link_pattern: "/career/[a-z0-9-]+/$"
+
+  - name: "SIX Group"
+    type: sfcsb
+    url: "https://jobs.six-group.com"
+    filters:
+      strict_location: true
+
+  # --- biztosítók / egyéb pénzügyi ------------------------------------------
+
+  - name: "Swiss Re"
+    type: sfcsb
+    url: "https://careers.swissre.com"
+    filters:
+      strict_location: true
+
+  # --- nemzetközi bankok / vagyonkezelők (globális lista, Svájcra szűrve) ---
+
+  - name: "JPMorgan"
+    type: oraclecloud
+    token: "jpmc.fa.oraclecloud.com/CX_1001"
+    filters:
+      strict_location: true
+
+  - name: "Bank of America (EMEA)"
+    type: workday
+    token: "ghr/wd1/lateral-emea"
+    filters:
+      strict_location: true
+
+  - name: "HSBC"
+    type: joblinks
+    url: "https://mycareer.hsbc.com/en_GB/external/SearchJobs/"
+    link_pattern: "/PipelineDetail/"
+    filters:
+      strict_location: true
+
+  - name: "BlackRock"
+    type: joblinks
+    url: "https://careers.blackrock.com/search-jobs"
+    link_pattern: "/job/"
+    filters:
+      strict_location: true
+
+  - name: "Barclays"
+    type: joblinks
+    url: "https://search.jobs.barclays/search-jobs"
+    link_pattern: "/job/"
+    filters:
+      strict_location: true
+
+  - name: "Northern Trust"
+    type: workday
+    token: "ntrs/wd1/northerntrust"
+    filters:
+      strict_location: true
+
+  - name: "State Street"
+    type: workday
+    token: "statestreet/wd1/Global"
+    filters:
+      strict_location: true
+
+  - name: "BNY"
+    type: oraclecloud
+    token: "eofe.fa.us2.oraclecloud.com/BNY-Careers"
+    filters:
+      strict_location: true
+
+  - name: "Schroders"
+    type: oraclecloud
+    token: "ekbq.fa.em2.oraclecloud.com/CX_2"
+    filters:
+      strict_location: true
+
+  - name: "Lazard"
+    type: oraclecloud
+    token: "icbpjb.fa.ocs.oraclecloud.com/LazardProfessionalCareers"
+    filters:
+      strict_location: true
+
+  - name: "PIMCO"
+    type: workday
+    token: "pimco/wd1/pimco-careers"
+    filters:
+      strict_location: true
+
+  - name: "Fidelity International"
+    type: workday
+    token: "fil/wd3/001"
+    filters:
+      strict_location: true
