@@ -45,6 +45,23 @@ def _uid(company: str, raw: str) -> str:
     return h[:16]
 
 
+_SESSION_PARAMS = re.compile(
+    r"^(sid|phpsessid|jsessionid|sessionid|session|utm_[a-z]+|gclid|fbclid|_ga|_gl|ref|source|src|tracking|trk)$",
+    re.I)
+
+
+def _clean_url(url: str) -> str:
+    """Session- és követő-paraméterek eltávolítása, hogy ugyanaz a pozíció
+    ne kapjon minden futásnál új azonosítót (pl. rexx: ?sid=...)."""
+    from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
+    try:
+        p = urlsplit(url)
+        q = [(k, v) for k, v in parse_qsl(p.query, keep_blank_values=True) if not _SESSION_PARAMS.match(k)]
+        return urlunsplit((p.scheme, p.netloc, p.path, urlencode(q), ""))
+    except Exception:
+        return url
+
+
 def _get(url: str, **kw):
     r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, **kw)
     r.raise_for_status()
@@ -330,7 +347,7 @@ def joblinks(company: str, url: str, link_pattern: str = r"/job/",
 
     out, seen = [], set()
     for a in soup.find_all("a", href=True):
-        full = urljoin(url, a["href"])
+        full = _clean_url(urljoin(url, a["href"]))
         if not pat.search(full) or full in seen:
             continue
 
