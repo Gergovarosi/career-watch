@@ -1,5 +1,22 @@
 # career-watch
 
+**EN:** A small, dependency-light Python tool that watches the *own* career portals of
+~60 Swiss (and a few global) banks, private banks and asset managers, and e-mails you
+when a **new** position appears that matches your keyword / location filters. No LinkedIn,
+no third-party job boards — only the employers' own sites. It runs for free on GitHub
+Actions (daily cron), keeps a `state.json` of everything already seen so you never get the
+same job twice, and supports 15+ applicant-tracking systems out of the box (Workday,
+SuccessFactors, Oracle Recruiting, SmartRecruiters, Umantis, rexx, softgarden, Prospective/
+OHWS, Personio, teamtailor/RSS, generic JSON and server-rendered HTML lists).
+
+**Quick start (fork & run):** fork this repo → *Settings → Secrets and variables → Actions*:
+add `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` (Gmail app password), `MAIL_TO` →
+*Settings → Actions → General → Workflow permissions: Read and write* → *Actions → career-watch →
+Run workflow* with **seed** ticked once (marks everything current as seen, no e-mail) → done.
+Edit `companies.yml` to change filters, locations or the list of companies. Licence: MIT.
+
+---
+
 Figyeli a megadott cégek **saját karrierportálját**, és e-mailt küld, amint új
 svájci pozíció jelenik meg, ami megfelel a szűrőknek. LinkedIn nincs benne.
 
@@ -82,7 +99,7 @@ export SMTP_HOST=smtp.gmail.com
 export SMTP_PORT=587
 export SMTP_USER=sajat.cimed@gmail.com
 export SMTP_PASS=abcdefghijklmnop
-export MAIL_TO=gergelyvarosi@yahoo.com
+export MAIL_TO=ahova.kered@example.com
 ```
 
 Az `SMTP_PASS` az app-jelszó, NEM a rendes Google-jelszavad. Aztán:

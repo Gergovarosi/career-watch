@@ -31,9 +31,9 @@ Settings (a repó menüsorában) → bal oldalt Secrets and variables → Action
 Ötöt vegyél fel egyesével (Name / Secret):
 - SMTP_HOST   smtp.gmail.com
 - SMTP_PORT   587
-- SMTP_USER   gergovarosi88@gmail.com
+- SMTP_USER   (a Gmail-címed)
 - SMTP_PASS   (a 16 karakteres Gmail app-jelszó — a Macen a career-watch/.env fájlban van)
-- MAIL_TO     (ahova az e-mailt kéred, pl. gergovarosi88@gmail.com)
+- MAIL_TO     (ahova az e-mailt kéred)
 
 ## 6. Írási jog a robotnak (FONTOS, különben kétszer kapnád ugyanazt a pozíciót)
 Settings → Actions → General → lent "Workflow permissions" → válaszd:

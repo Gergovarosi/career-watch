@@ -76,9 +76,18 @@ def matches(job: adapters.Job, f: dict) -> bool:
     return True
 
 
+_NOT_SWISS = re.compile(
+    r"(united states|\busa\b|\bu\.s\.|lake zurich|illinois|\bil\b|new zealand|australia|canada|"
+    r"united kingdom|\buk\b|\bengland\b|germany|deutschland|austria|\bindia\b|singapore|hong kong)", re.I)
+
+
 def _loc_match(text: str, locs: list) -> bool:
     """Helyszín-kulcsszó SZÓHATÁRRAL — hogy a 'gland' ne találjon az 'England'-re,
-    a 'sion' a 'Division'-re, a 'chur' a 'Church'-re. A 'ch' országkódot is érti."""
+    a 'sion' a 'Division'-re, a 'chur' a 'Church'-re. A 'ch' országkódot is érti.
+    Ha a szövegben egyértelműen más ország szerepel (pl. "Lake Zurich, IL, United
+    States"), akkor nem svájci."""
+    if _NOT_SWISS.search(text) and not re.search(r"switzerland|schweiz|suisse|svizzera", text):
+        return False
     for w in locs:
         if re.search(r"(?<![a-z\u00e0-\u00ff])" + re.escape(w) + r"(?![a-z\u00e0-\u00ff])", text):
             return True

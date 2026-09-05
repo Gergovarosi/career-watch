@@ -11,6 +11,7 @@ oldalt nézi.
 from __future__ import annotations
 
 import hashlib
+from html import unescape as _html_unescape
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, asdict
@@ -269,7 +270,11 @@ def fetch(entry: dict) -> list[Job]:
               if k not in ("name", "type", "enabled", "filters")}
     kwargs.setdefault("token", "")
     kwargs.setdefault("url", "")
-    return _dedupe(fn(company=entry["name"], **kwargs))
+    jobs = fn(company=entry["name"], **kwargs)
+    for j in jobs:  # HTML-entitások (&amp; stb.) kitakarítása a címekből
+        j.title = _html_unescape(j.title or "")
+        j.location = _html_unescape(j.location or "")
+    return _dedupe(jobs)
 
 
 # --------------------------------------------------------------------------
